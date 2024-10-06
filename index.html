@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <title>Dancing Feet</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main id="alku" class="container-fluid">
+        <h1>Tanssistudio Dancing Feet</h1>
+
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="workshop.html">Workshopit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opettajat.html">Opettajat</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="karuselli1.jpg" alt="Lapset tanssii" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="karuselli2.jpg" alt="Hip hop tanssija" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="karuselli3.jpg" alt="Nainen tanssii hiekalla" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <br>
+
+        <div id="workshopit" class="container my-5">
+            <h2>Tulevat workshopit</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="workshop3.1.jpg" class="card-img-top" alt="rumba workshop">
+                        <div class="card-body">
+                            <h5 class="card-title">Rumba</h5>
+                            <p class="card-text">Rumba on kuubalaisten tanssirytmien ryhmä, johon kuuluvat mm. son ja
+                                danzon. Rumba on rytmiltään hidasta ja sensuellia, ja siihen liittyy usein voimakkaat
+                                liikkeet ja koreografiset elementit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="workshop1.jpg" class="card-img-top" alt="hiphop workshop">
+                        <div class="card-body">
+                            <h5 class="card-title">Hip hop</h5>
+                            <p class="card-text">Hip hop on saanut vaikutteita mm. breakdancesta, lockingista ja poppingista. Tanssityyli on sekä rentoa että vauhdikasta ja bounsaavaa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="workshop2.1.jpeg" class="card-img-top" alt="samba workshop">
+                        <div class="card-body">
+                            <h5 class="card-title">Samba</h5>
+                            <p class="card-text">Samba on eloisa ja rytmikäs tanssi, jonka juuret löytyvät Brasiliasta. Sambaan liittyy vahvasti värikäs ja koristeellinen pukeutuminen, joka on verrattavissa karnevaaliasuihin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="taulukko" class="container mt-3">
+                <h2>Ota yhteyttä</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Studio</th>
+                            <th>Osoite</th>
+                            <th>Puhelin</th>
+                            <th>Sähköposti</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Turku</td>
+                            <td>Keskustankatu 1</td>
+                            <td>040 123 1234</td>
+                            <td>info@turkudancingfeet.com</td>
+                        </tr>
+                        <tr>
+                            <td>Tampere</td>
+                            <td>Kaarikatu 2</td>
+                            <td>050 123 1234</td>
+                            <td>info@tredancingfeet.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+    </main>
+</body>
+
+</html>

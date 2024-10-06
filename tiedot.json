@@ -1,0 +1,36 @@
+{
+    "laji": [
+        "Rumba",
+        "Hip hop",
+        "Samba"
+    ],
+    "opettajat": [
+        "Carlos Santana",
+        "Mikael Meriläinen",
+        "Eva Manuela"
+    ],
+    "kokemus": [
+        "Carlos on tanssinut latinalaisia tansseja yli 20 vuotta ja opettanut noin 10 vuotta. Hänen vahvuuksiaan ovat tanssin tulkinta sekä tuntien rentous.",
+        "Mikael on tanssinut niin hip hoppia kuin lockingia pienestä asti. Mikaelin vahvuuksia opettajana on kaikkien huomioon ottaminen sekä fiiliksen tuominen tunneille.",
+        "Eva on tanssinut kilpatansseja noin 10 vuotta ja on melko tuore opettajana. Evan vahvuuksia ovat musiikin tulkitseminen sekä hauskuuden tuominen tanssitunneille."
+    ],
+    "kaupunki": "Turku",
+    "paikka": "Keskustan studio",
+    "osoite": "Keskustankatu 1",
+    "osallistujamaara": 30,
+    "pvm": [
+        "12.10.2024",
+        "19.10.2024",
+        "26.10.2024"
+    ],
+    "klo": [
+        "12.00-13.30",
+        "17.00-18.30",
+        "13.00-14.30"
+    ],
+    "ilmottautuminen": [
+        "11.10.2024",
+        "18.10.2024",
+        "25.10.2024"
+    ]
+}
